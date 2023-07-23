@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: #eee;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.container {
+  width: 800px;
+  height: 350px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.display {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(196, 13, 13);
+  border-radius: 5px;
+  margin-left: -30px;
+}
+.inputs {
+  width: 400px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.Name,
+.Email,
+.Message {
+  width: 300px;
+  height: 40px;
+  background-color: #eee;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: none;
+}
+.Message {
+  height: 60px;
+}
+.submit {
+  width: 100px;
+  height: 40px;
+  margin-top: 13px;
+  border-radius: 5px;
+  background-color: rgb(196, 13, 13);
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.p {
+  font-weight: bolder;
+  font-size: 32px;
+  color: rgb(196, 13, 13);
+}
+
+.contact {
+  font-weight: bolder;
+  font-size: 32px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.info {
+  list-style: none;
+  margin-top: 50px;
+  margin-left: 15px;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+.icons {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 15px;
+  gap: 30px;
+  cursor: pointer;
+}
+.icons i {
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+i {
+  margin-right: 10px;
+}
